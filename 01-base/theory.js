@@ -1,42 +1,44 @@
 // --- Operators
-let a = 10
-let b = 5
-let c = 32
+let a = 10;
+let b = 5;
+let c = 32;
 
-// c = c + a
-// c = c - a
-// c = c * a
-// c = c / a
+// Операции с переменной c
+// c = c + a;
+// c = c - a;
+// c = c * a;
+// c = c / a;
 
-// c += a
-// c -= a
-// c *= a
-// c /= a
+// Сокращенные формы операций
+// c += a;
+// c -= a;
+// c *= a;
+// c /= a;
 
-// c = 4 ** 2
-
+// Возведение в степень
+// c = 4 ** 2;
 
 // --- Data Types
-const age = 18 // number
-const name = 'Sasha' // string
-const isProgrammer = true // boolean
-let x // undefined
+const age = 18; // number
+const name = 'Sasha'; // string
+const isProgrammer = true; // boolean
+let x; // undefined
 // null
 // NaN = not a number
-// console.log(typeof)
-
+// console.log(typeof);
 
 // --- Priority
-const fullAge = 18
-const birthYear = 2006
-const currentYear = 2024
-// > < >= <=
-const isFullAge = currentYear - birthYear >= fullAge
-// console.log(isFullAge)
+const fullAge = 18;
+const birthYear = 2006;
+const currentYear = 2024;
 
-const num1 = 42
-const num2 = '42'
+// Проверка на совершеннолетие
+const isFullAge = currentYear - birthYear >= fullAge;
+// console.log(isFullAge);
 
-console.log(num1 == num2)
+// Сравнение типов
+const num1 = 42;
+const num2 = '42';
 
-
+// Сравнение без учета типа
+console.log(num1 == num2);
